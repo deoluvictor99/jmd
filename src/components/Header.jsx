@@ -54,8 +54,8 @@ export default function Header() {
                 variants={item}
                 >
                     <div className='relative z-[1]'>
-                        <motion.img src="src/assets/Ellipse 1.png" alt="img" className='w-[75%]'/>
-                        <motion.img src="src/assets/Ellipse 2.png" alt="img" className='absolute top-[45%] left-[40%] w-[55%]'/>
+                        <motion.img src="Ellipse 1.png" alt="img" className='w-[75%]'/>
+                        <motion.img src="Ellipse 2.png" alt="img" className='absolute top-[45%] left-[40%] w-[55%]'/>
                     </div>
                 </motion.section>
             </motion.div>

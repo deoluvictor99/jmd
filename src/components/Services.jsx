@@ -14,17 +14,17 @@ export default function Services() {
                 className='px-[2rem] space-y-10 md:space-y-0 md:flex md:justify-between md:px-[3rem]'>
                     <Card
                         
-                        image = 'src/assets/alejandra-cifre-gonzalez-ylyn5r4vxcA-unsplash 1.png' 
+                        image = 'alejandra-cifre-gonzalez-ylyn5r4vxcA-unsplash 1.png' 
                         title='REAL-ESTATE'
                         description='Buy, sell houses and lands across Nigeria'
                     />
                     <Card 
-                        image = 'src/assets/joey-banks-YApiWyp0lqo-unsplash 1.png' 
+                        image = 'joey-banks-YApiWyp0lqo-unsplash 1.png' 
                         title='AUTOMIBILE'
                         description='Buy, sell and swap cars anywhere across Nigeria'
                     />
                     <Card 
-                        image = 'src/assets/Untitled.png' 
+                        image = 'Untitled.png' 
                         title='SHORTLET APPARTMENTS'
                         description='Shortlet appartments at Abuja and Lagos ,Nigeria.'
                     />

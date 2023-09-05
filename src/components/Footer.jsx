@@ -22,7 +22,7 @@ export default function Footer() {
     };
     return (
         <>
-            <footer className='mt-[1.5rem] sm:mt-[4rem] sm:px-8 lg:px-[7rem] pb-12 pt-4 bg-[#5927E5] text-white'>
+            <footer className='pt-[1.5rem] sm:pt-[4rem] sm:px-8 lg:px-[7rem] pb-12 bg-[#5927E5] text-white'>
                 <div 
                 
                 className='lg:flex px-6 sm:px-0'>

@@ -50,7 +50,7 @@ export default function About() {
                 <motion.section 
                 variants={item}
                 className='sm:justify-center sm:flex sm:w-full '>
-                    <img src="src/assets/pexels-pnw-production-8276360 1.png" alt=""  className='lg:w-[22rem] md:w-[70vw]'/>
+                    <img src="pexels-pnw-production-8276360 1.png" alt=""  className='lg:w-[22rem] md:w-[70vw]'/>
                 </motion.section>
             </motion.div>
         </>

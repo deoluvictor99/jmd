@@ -12,14 +12,14 @@ export default function Choice() {
                 <div className='sm:max-w-[85vw] sm:mx-[auto] md:flex md:flex-wrap justify-center md:gap-x-[2rem]'>
                     <div>
                         <Property
-                            image='src/assets/pexels-expect-best-323775 1.png'
+                            image='pexels-expect-best-323775 1.png'
                             title = 'Lekki, Lagos Nigeria'
                             description = '4 bedroom and 5 bathroom duplex'
                         />
                     </div>
                     <div>
                         <Property
-                            image='src/assets/pexels-vecislavas-popa-1643383 1.png'
+                            image='pexels-vecislavas-popa-1643383 1.png'
                             title = 'Ikeja, Lagos Nigeria'
                             description = '2 bedroom and 3 bathroom Flat'
                             
@@ -27,7 +27,7 @@ export default function Choice() {
                     </div>
                     <div>
                         <Property
-                            image='src/assets/pexels-jonathan-borba-5563472 1.png'
+                            image='pexels-jonathan-borba-5563472 1.png'
                             title = 'Ikoyi, Lagos Nigeria'
                             description = '5 bedroom and 6 bathroom duplex'
                             
@@ -35,7 +35,7 @@ export default function Choice() {
                     </div>
                     <div>
                         <Property
-                            image='src/assets/pexels-pixabay-276554 1.png'
+                            image='pexels-pixabay-276554 1.png'
                             title = 'Lekki, Lagos Nigeria'
                             description = '4 bedroom and 5 bathroom duplex'
                             

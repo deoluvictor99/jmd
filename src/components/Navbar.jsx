@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 
 const Nav = () => {
@@ -9,9 +10,9 @@ const Nav = () => {
     return (
         <nav className="bg-[#5927E5] shadow-md w-full fixed top-0 left-0 md:px-[5rem] md:py-0 z-50">
             <div className="flex flex-wrap items-center justify-between mx-auto p-4 ">
-                    <a href="/" className="px-[1.1rem] py-1  rounded-tl-[1.45rem] rounded-br-[1rem] text-[white] bg-black">
+                    <Link href="/" className="px-[1.1rem] py-1  rounded-tl-[1.45rem] rounded-br-[1rem] text-[white] bg-black">
                         <span className="text-[1.3rem] md:text-[1.8rem] font-bold">JMD</span>
-                    </a>
+                    </Link>
 
                     <motion.button 
                         type="button" 
@@ -33,13 +34,13 @@ const Nav = () => {
                                     `}
                         >
                             <li>
-                                <a href="/" className="inline-block hover:bg-black hover:text-white px-6 py-3 ">Home</a>
+                                <Link to="/" className="inline-block hover:bg-black hover:text-white px-6 py-3 ">Home</Link>
                             </li>
                             <li>
-                                <a href="/AboutUs" className="inline-block hover:bg-black hover:text-white px-6 py-3 ">About Us</a>
+                                <Link to="/AboutUs" className="inline-block hover:bg-black hover:text-white px-6 py-3 ">About Us</Link>
                             </li>
                             <li>
-                                <a href="/Contact" className="inline-block hover:bg-black hover:text-white px-6 py-3 ">Contact Us</a>
+                                <Link to="/Contact" className="inline-block hover:bg-black hover:text-white px-6 py-3 ">Contact Us</Link>
                             </li>
                     </motion.ul>
             </div>

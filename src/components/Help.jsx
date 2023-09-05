@@ -31,8 +31,8 @@ export default function Help() {
             >
                 <div className='w-[100%] bg-blue-900'>
                     <img 
-                        src="/src/assets/pexels-jeffrey-czum-2904142 1.png" 
-                        className='w-full border'
+                        src="pexels-jeffrey-czum-2904142 1.png" 
+                        className='w-full '
                     />
                 </div>
 

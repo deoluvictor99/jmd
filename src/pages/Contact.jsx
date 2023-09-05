@@ -5,7 +5,7 @@ export default function Contact() {
         <>
             <section>
                 <div className='relative w-full  px-[1rem] mt-[5rem] md:mt-[8rem]'>
-                    <img src="src\assets\pexels-expect-best-323780 1.png" alt="img" className='w-[100%]' />
+                    <img src="pexels-expect-best-323780 1.png" alt="img" className='w-[100%]' />
                     <h1 className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-1xl sm:text-5xl  font-semibold sm:font-bold' >Contact Us</h1>
                 </div>
 
